@@ -12,6 +12,6 @@ plot(t,y2,'--xg');hold on;
 y3=A.*exp(-k.*t).*sin(c.*t+phi);
 plot(t,y3,'-*c');
 
+title({'Varying {\omega} & A - Unforced Oscillating Systems';'y=Ae^{-kt}sin({\omega}t+{\phi})'})
 legend('y=10e^{-0.25t}sin(2.5t+1.5)','y=2e^{-0.25t}sin(2.5t+1.5)','y=10e^{-0.25t}sin(2t+1.5)')
-axis([0 6*pi./c -10 10])
 
