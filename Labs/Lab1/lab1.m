@@ -17,3 +17,4 @@ title({'Lab #1 Graph - Unforced Oscillating Systems';'y=Ae^{-kt}sin({\omega}t+{\
 xlabel('t - Time (seconds)')
 ylabel('y - Postion (m)')
 axis([0 6*pi./omega -10 10])
+legend('y=10e^{-0.25t}sin(2.5t+1.5)')
