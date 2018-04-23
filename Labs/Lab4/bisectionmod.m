@@ -1,4 +1,4 @@
-function fout = bisection(f,a,b,n,err)
+function fout = bisectionmod(f,a,b,n,err)
 %Implementation of the bisection method of root finding. Here f is the
 %function whose roots are to be found on the interval [a,b]. n is the
 %number of subdivision to be used and err is the desired absolute error.
@@ -6,7 +6,7 @@ if err<=0
     disp('Error. Your error tolerance must be positive.');
 else
     
-    x=linpace(a,b,n); %Split up our search interval.
+    x=linspace(a,b,n); %Split up our search interval.
     roots=[]; %This will hold the roots.
     
     for i=1:n-1  %Search each subinterval.
