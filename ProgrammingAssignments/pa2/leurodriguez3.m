@@ -12,7 +12,7 @@ popvals=[logistic(k1,120)];
 counter=k1;
 kcur=k1;
 kvals=k1:h:k2;
-counter=k1;
+counter=k1+h;
 
 while counter<k2
     counter=counter+h;
@@ -20,7 +20,6 @@ while counter<k2
     pcur=logistic(kcur,120);
     popvals=[popvals;pcur];
 end
-
 plotgraph(kvals,popvals);
 end
 
