@@ -75,8 +75,8 @@ disp(str2);
 %Plot
 plot(T,k,'m*',T,linreg,'r',T,reg,'b');
 str3=sprintf('%f*e^{%f*T} (Linear)',A,E);
-str4=sprintf('%f*T^{%f}e^{%f*T} (Nonlinear)',C(1),C(2),C(3));
-title('Temperature vs. Reaction Rate');
+str4=sprintf('%f*(Nonlinear)',C(1),C(2),C(3));
+title('Temperature T^{%f}e^{%f*T} vs. Reaction Rate');
 xlabel('Temperature (Kelvin)');
 ylabel('Reaction Rate (k)');
 legend('Data',str3,str4);
