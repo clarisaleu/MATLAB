@@ -124,7 +124,7 @@ xlabel(xStr0);
 ylabel(yStr0);
 legend('\fontsize{10}S (Members of population who are susceptible to the disease)','\fontsize{10}I (Members of population who are infected with the disease)','\fontsize{10}R (Members of population who recovered from disease)');
 title('\fontsize{15}\color[rgb]{0,.2,.5}\bf The SIR Model for a Closed Population (Using the Built in ode45() Method)');
-whitebg([0.900, 0.852, 0.904]);
+whitebg([0.700, 0.852, 0.904]);
 grid on;
 set(gcf,'units','inches','position',[.5,.5,15,7]);
 
